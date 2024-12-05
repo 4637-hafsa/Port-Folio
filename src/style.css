@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cards {
+    @apply flex flex-col border border-gray-800 rounded p-4 m-4
+}
+
+.list {
+    @apply flex flex-row mb-4 text-green-200 gap-4 py-4
+}
+
+.btn {
+    @apply border border-gray-800 text-white rounded-full px-6 py-2 
+    font-medium shadow-md hover:bg-gray-600 hover:shadow-lg 
+    transition duration-300 ease-in-out transform hover:-translate-y-1
+}
